@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0px 10px 0px 10px;
+}
+
+nav ul li a {
+    color: #7289DA;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+nav ul li:nth-child(1) {
+    margin-right: auto;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: bisque;
+}
+
+#logo2 {
+    max-height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+
+#logo {
+    display: inline-flex;
+    height: 50px;
+    background-image: url("./logo.png") !important;
+    background-repeat: no-repeat;
+    background-size: 200px 68px;
+    background-position: center; /* Center the image */
+}
